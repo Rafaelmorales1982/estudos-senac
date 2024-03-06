@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(58, 57, 59);
+    color: white;
+}
+
+.cabecalho{
+        display: flex;
+        justify-content: center;
+        background-color: #afadad;
+       
+        color: black;
+        text-align: center;
+        border: 5px solid #afadad;
+        border-radius: 5px;
+        align-items: center;
+        
+        
+    
+}
+
+
+p {
+    font-size: 32px;
+    color: rgb(156, 153, 153);
+    text-align: center;
+}
+
+
+
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    border: 50px solid #afadad;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.imagens a {
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(240, 8, 8);
+    cursor: pointer;
+
+}
+
+.gato{
+    width: 20%;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.titulo_serie{
+    margin-bottom: 1em;
+    color: darkorange;
+    margin-top: 1em;
+}
+
+.subtitulo_serie{
+    margin-bottom: 1em;
+    color:coral
+}
+
+.subtitulo{
+    margin-top: 1em;
+}
+
+.videos {
+    padding: 15px;
+    border: 10px solid #afadad;
+}
+
+.footer {
+    padding: 20px;
+  
+}
+.footer-texto{
+    font-weight: bold;
+    font-size: 18px;
+}
